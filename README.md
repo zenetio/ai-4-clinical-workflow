@@ -1,17 +1,16 @@
-# Integrating AI into Clinical Workflow with Orthanc and OHIF Viewer #
+# Integrating AI into Clinical Workflow with Orthanc and OHIF Viewer
 
-## Creating an AI module for a Clinical Radiological System for Alzheimer disease (AD) treatment.
+## Creating an AI module for a Clinical Radiological System for Alzheimer disease (AD) treatment
 
 ### Overview
 
-The target of this project is to provide a solution to integrate an AI model to Clinical Workflow to help clinicians provide better patient treratment. 
+The target of this project is to provide a solution to integrate an AI model to Clinical Workflow to help clinicians provide better patient treratment.
 
 ## 1. System Architecture
 
 ![Figure 1](src/images/integration.png)
 
-
-The project uses some scripts to simulate the integration showed in the figure above. 
+The project uses some scripts to simulate the integration showed in the figure above.
 
 In this simulation, we have 4 parts:
 
@@ -49,7 +48,7 @@ If you installed Orthanc on Windows, it is already running as a service. You can
 echoscu localhost 4242 -v
 ```
 
-- Download and install the OHIF web viewer from [here](https://medium.com/r/?url=https%3A%2F%2Fdocs.ohif.org%2Fdevelopment%2Fgetting-started.html). Open a terminal (I will call viewer) and run the command 
+- Download and install the OHIF web viewer from [here](https://medium.com/r/?url=https%3A%2F%2Fdocs.ohif.org%2Fdevelopment%2Fgetting-started.html). Open a terminal (I will call viewer) and run the command
 
 ```sh
 bash launch_OHIF.sh
