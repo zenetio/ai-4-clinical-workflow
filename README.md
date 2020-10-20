@@ -29,7 +29,7 @@ In this simulation, we have 4 parts:
 To put all the packages and scripts working, we need to follow a sequence that is described below. You can find the source code used in this simulation in my GitHub repo, here.
 Depending on your configuration, you will need to open a group of terminal window for Orthanc, viewer, listener and one more to execute commands. Note that there is no need to open a terminal if the component is running as a service. In my case, I used 3 terminals as shown in the figure:
 
-![Figure 2](src/images/Viewer_initialized_with_success.png)
+![Figure 2](src/images/Viewer_init_with_success.png)
 
 - Download and install the Orthanc server from [here](https://medium.com/r/?url=https%3A%2F%2Fwww.orthanc-server.com%2Fdownload.php). Open a terminal and run the command
 
